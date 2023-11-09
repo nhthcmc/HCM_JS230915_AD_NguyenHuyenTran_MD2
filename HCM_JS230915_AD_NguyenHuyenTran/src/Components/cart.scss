@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+.cartContainer {
+    background-color: black;
+    color: white;
+
+    .cartInfo {
+        display: flex;
+        justify-content: space-evenly;
+
+        .cartQuantity {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 5px;
+        }
+    }
+}
