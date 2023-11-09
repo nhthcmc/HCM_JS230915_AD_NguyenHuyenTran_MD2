@@ -1,0 +1,15 @@
+.nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    color: white;
+    background-color: #FB923C;
+
+    .nav-left {
+        gap: 1rem;
+        cursor: pointer;
+        display: flex;
+    }
+}
